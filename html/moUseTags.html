@@ -4,8 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Documento</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
     <style>
+        nav{
+    
+            text-decoration:none;
+            color:#fff;
+        }
         body{
+            font-family: 'JetBrains Mono', monospace;
             background-color: #000;
             color: #fff;
         }
@@ -16,21 +25,35 @@
         p{
             color:#fff;
         }
-        a{
+        #Lorem{
             text-decoration: underline;
             color:#fff; 
         }
         .img-logo{
+            margin: 45px;
+            border-radius: 10px;
+            align-items: center;
             width:200px;
             height: 188px;
+        }
+        #Home{
+            text-decoration:none;
+            color:#fff;
         }
     </style>
 </head>
 <body>
+    <header>
+    <nav>
+        <h1>
+            <a id="Home" href="https://www.google.com.br" target="_self">Pagina inicial</a>
+        </h1>
+    </nav>
+    </header>
     <h1>Cabeçalho</h1>
     <p><Strong>Lorem</Strong> ipsum dolor sit amet, consectetur adipiscing elit. <br>bLorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     <hr>
-    <a href="https://www.lipsum.com/" target="_blank"><img class="img-logo" src="https://miro.medium.com/1*H90ZEKu0LMMIp96R6jbH3w.png" alt="img-Lorem Ipsum Dolor origin"></a>
+    <a id="Lorem" href="https://www.lipsum.com/" target="_self"><img class="img-logo" src="https://miro.medium.com/1*H90ZEKu0LMMIp96R6jbH3w.png" alt="img-Lorem Ipsum Dolor origin"></a>
     <hr>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     <hr>
