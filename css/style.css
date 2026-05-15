@@ -1,3 +1,17 @@
+body{
+    background-color: #000;
+    color: #fff;
+    font-family: 'Fira Code', monospace;
+}
 h1{
-    background-color: aliceblue;
+    background-color: purple;
+}
+
+a{
+    color: #fff;
+    text-decoration: underline;
+}
+footer{
+    background-color: rgb(206, 93, 206);
+    color:#fff;
 }
