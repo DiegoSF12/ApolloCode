@@ -1,0 +1,30 @@
+body{
+     background-image: url(../the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-fullview.jpg);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+#home{
+    color: #E50914;
+    font-family: "Archivo Black";
+    font-size: 42px;
+}
+#entrar{
+    background-color: #E50914;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+#corpo{
+    color:#fff;
+    font-family: "Archivo Black";
+    font-size: 46px;
+    align-items: center;
+}
