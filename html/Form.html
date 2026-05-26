@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Forms.css">
+    <title>User Info</title>
+</head>
+<body>
+    <form action="Congrats.html" target="_self">
+        <fieldset>
+        <legend>Informações Pessoais</legend>
+        
+        <p>
+            <label for="nome">Primeiro nome:</label>
+            <input type="text" id="nome" name="nome"placeholder="Seu nome...">
+        </p>
+        
+        <p>
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome...">
+        </p>
+    
+        <p>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="E-mail..." required>
+
+        <br>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" placeholder="Sua senha...">
+        <br>
+        </fieldset>
+        <fieldset>
+            <legend>Informações Adicionais</legend>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="Seu telefone...">
+            <input type="text" id="cidade" name="cidade" placeholder="Cidade...">
+
+        </fieldset>
+
+        <div class="termos">
+            <label for="termos" id="termos-label">Aceita os nossos termos ?</label>
+            <br>
+            <p id="termos-text">Sim</p>
+            <input class="genero" type="checkbox" id="termo
+            s" name="termos" required>
+            <label class="genero"for="masculino">Masculino</label>
+            <input  type="radio" id="masculino" name="genero" value="masculino">
+            <label class="genero" for="feminino">Feminino</label>
+            <input class="genero" type="radio" id="feminino" name="genero" value="feminino">
+            <label class="genero" for="outro">Outro</label>
+            <input class="genero" type="radio" id="outro" name="genero" value="outro">
+
+        </div>
+        <br>
+        <label for="date">Data de inicio</label>
+        <input type="date" id="date" name="date" value="2024-06-01" min="1901-01-01" max="2024-12-31">
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
