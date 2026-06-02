@@ -1,0 +1,77 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.heading{
+    transition: all 1s ease-in-out;
+}
+
+.heading:hover{
+    background-color: purple;
+    color:#fff;
+}
+
+#checkbox:checked + .heading{
+    background-color: purple;
+    color:#fff;
+}
+
+a:link{
+    color: red;
+}
+a:visited{
+    background-color: purple;
+    color: orange;
+}
+
+#form-field:focus{
+    box-shadow: 0 0 5px rgba(0,0,0,0.8);
+    border: 1px solid #000;
+    color:#fff;
+}
+
+#form-field:disabled{
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
+
+.pai .list li:first-child{
+    background-color: purple;
+}
+
+.lista :nth-child(odd){
+    background-color: turquoise;
+}
+
+.lista :nth-child(even){
+    background-color: purple;
+}
+
+.lista :nth-child(3n){
+    background-color: orange;
+}
+
+#form-field::placeholder{
+    color: rgba(142, 39, 210, 0.4);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.pseudo-elementos li::before{
+    content: "👌";
+    margin-right: 5px;
+}
+
+.pseudo-elementos li::after{
+    content: " ";
+    display: block;
+    background-color: purple;
+    width: 100%;
+    height: 2px;
+    
+}
+
+.primeiro-paragrafo::first-letter{
+    font-size: 50px;
+    margin: 0 10px 0 10px;
+}
