@@ -12,7 +12,7 @@ body{
 }
 
 #checkbox:checked + .heading{
-    background-color: purple;
+    background-color: darkgreen;
     color:#fff;
 }
 

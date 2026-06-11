@@ -1,0 +1,43 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    background-color: #fff;
+    color: #000;
+}
+
+.titulo{
+    background-color: lightpink;
+    border-radius: 10px;
+}
+
+.paragrafo::first-letter{
+    margin: 0 5px 0 10px;
+    font-size: 30px;
+}
+
+.paragrafo{
+    background-color: #FFCFEA;
+    border-radius: 3px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 700px;
+    border: #000 solid 2px;
+}
+
+th,td{
+    border: #000 solid 2px;
+    text-align: center;
+}
+
+tfoot td{
+    text-align: right;
+}
+
+caption{
+    caption-side: top;
+    text-align: left;
+}
+
+
