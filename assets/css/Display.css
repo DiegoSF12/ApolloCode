@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.grid .col{
+    background-image: url('https://upload.wikimedia.org/wikipedia/en/4/47/Mac-DeMarco-Here-Comes-The-Cowboy-00842812112638-e1557039292481.png');
+    background-size: cover;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+}
