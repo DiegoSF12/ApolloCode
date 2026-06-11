@@ -40,4 +40,20 @@ caption{
     text-align: left;
 }
 
+.coments{
+    margin:0 25px 0 25px;
+    display: block;
+    width: 100%;
+    height: 150px;
+    overflow: auto;
+}
+
+.subir{
+    display: block;
+    width: 340px;
+    float: left;
+    margin: 0 5px 0 5px;
+}
+
+
 
